@@ -1,0 +1,133 @@
+body {
+    background-color: darkgray;
+    font-family: Georgia, Verdana, sans-serif;
+    font-size: 24px;
+    color: #FC4C02;
+  }
+  table {
+      width: 600px;
+  }
+
+  th, td {
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+  }
+
+  th {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 90%;
+      color: #008E97;
+      border-bottom: 2px solid #111111;
+      border top: 1px solid #999;
+  }
+
+  tr.even {
+      background-color: #efefef;
+  }
+
+  tr:hover {
+      background-color: #c3e6e5;
+  }
+
+  h1 {
+    text-align: center;
+    color:#008E97;
+
+  }
+  header {
+    text-align: center;
+    color:white;
+  }
+  table
+  { 
+  margin-left: auto;
+  margin-right: auto;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.games{
+    color: white;
+    text-align: center;
+    padding-right:1.5rem;
+}
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkgray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+ 
+  table {
+    border: 1px solid white;
+    outline-style: dashed;
+    outline-color: invert;
+  }
+  footer{
+
+    clear: both;
+    
+    height: 50px;
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    margin: 0;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+    
+    font-size: 12px;
+    
+    background-color: darkgray;
+    
+    color: darkgray;
+    
+    }
+    /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #008E97;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: darkgray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #008E97;
+    color: white;
+  }
